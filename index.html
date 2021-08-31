@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Dracarys</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript -->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <!-- Home Section -->
+    <section id="home">
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/icon.png" alt="">
+                Dracarys</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="navbar-nav">
+
+                    <a class=" nav-item active nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+
+
+                    <a class="nav-item nav-link" href="quiz.html">Quiz</a>
+
+
+                    <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Seasons
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="season1.html">Season-1</a>
+                            <a class="dropdown-item" href="season2.html">Season-2</a>
+
+                        </div>
+                    </li>
+                </div>
+
+        </nav>
+        <!-- Tittle -->
+        <div id="title">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item ">
+                        <h1 class="tittle-pic1">Mother of Dragons</h1>
+                        <img class="d-block w-100" src="images/breakerOfChains.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class="tittle-pic2">Breaker of Chains</h1>
+                        <img class="d-block w-100" src="images/khaleesi.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item active">
+                        <h4 class=" tittle-pic3-1">The Queen</h4>
+                        <h1 class=" tittle-pic3"> Daenerys Targareyn</h1>
+                        <img class="d-block w-100" src="images/landing.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div id="article">
+            <h2 class="h0">Contents</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                   <a href="quiz.html"><img class="pic pic1" src="images/article-1.png" alt="quiz"></a> 
+                    <a href="quiz.html"> <button type="button" class="btn btnn col-lg-3 col-md-6">Quiz</button></a>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                   <a href="gallery.html"> <img class="pic pic2" src="images/gallery/gallery4.jpg" alt="Gallery"></a>
+                    <a href="gallery.html"><button type="button"
+                            class="btn bts btn-dark col-lg-3 col-md-6">Gallery</button></a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                   <a href="season1.html"> <img class="pic pic3" src="images/article-2.jpg" alt="season1"></a>
+                    <a href="season1.html"><button type="button" class="btn bts1 col-lg-3 col-md-6">Season
+                            1</button></a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="season2.html"><img class="pic pic4" src="images/gallery/gallery2.jpg" alt="season2"></a>
+                    <a href="season2.html"> <button type="button"
+                            class="btn bts2 col-lg-3 col-md-6 ">Season-2</button></a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+        <!-- FOOTER -->
+
+        <section id="footer">
+
+
+            <a href="https://twitter.com/GameOfThrones?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i
+                    class="fab fa-twitter footer-icons "></i></a>
+
+
+            <a href=" https://www.facebook.com/GameOfThrones/"><i class="fab fa-facebook-f footer-icons "></i></a>
+
+
+            <a href=" https://www.instagram.com/gameofthrones/?hl=en"><i class="fab fa-instagram footer-icons "></i></a>
+
+
+
+            <h6>© Copyright 2021 Bharath Kumar</h6>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="index.js"></script>
+
+</body>
+
+</html>

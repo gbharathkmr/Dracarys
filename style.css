@@ -1,0 +1,176 @@
+
+body{
+    text-align: center;
+}
+/* Navigation Bar */
+nav{
+    margin: 0 5%;
+}
+.navbar-brand{
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+}
+.nav-item{
+    font-family: 'Cinzel', serif;
+    font-size: large;
+    margin: 10px;
+    
+}
+
+/* Tittle-Wallpapers */
+#tittle{
+    height: 650px;
+}
+.tittle-pic1{
+    position: absolute;
+    top:30%;
+    right:7%;
+    font-size: 4rem;
+    width: 500px;
+
+}
+.tittle-pic2{
+    position: absolute;
+    top:40%;
+    right:7%;
+    font-size: 4rem;
+    width: 500px;
+    color:whitesmoke;
+
+}
+.tittle-pic3{
+    position: absolute;
+    top:50%;
+    left:7%;
+    font-size: 4rem;
+    width: 500px;
+    color: white;
+
+}
+.tittle-pic3-1{
+    position: absolute;
+    top:30%;
+    left:7%;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Cinzel', serif;
+
+}
+@media(max-width:790px){
+    .tittle-pic1{
+        font-size: 1rem;
+        position: absolute;
+        left:250px;
+
+    
+        
+
+    }
+    .tittle-pic2{
+        font-size: 1rem;
+        position: absolute;
+        top:45%;
+        left:270px;
+
+    }
+    .tittle-pic3{
+        font-size: 1rem;
+        position: absolute;
+        top:50%;
+
+    }
+    
+    .tittle-pic3-1{
+        font-size: 10px;
+        position: absolute;
+        top:40%;
+        left:7%;
+
+    }
+}
+/* ARTICLE */
+.pic{
+    border-radius: 2%;
+    box-shadow: 5px 5px 9px gray;
+
+}
+
+/* Footer */
+#footer{
+    background-color: #EEEEEE;
+    margin-top: 5%;
+}
+.footer-icons{
+    margin: 20px;
+}
+
+/* Tags */
+h1{
+    font-family: 'Cinzel', serif;
+    padding-bottom: 2% ;
+    text-align: left;
+
+}
+
+p{
+    font-family: 'Zilla Slab', serif;
+    padding: 5%;
+    color: black;
+}
+h6{
+    padding: 10px;
+}
+/* SEASONS */
+.content{
+    width: 50%;
+    margin: 0 auto;
+}
+.h0{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin: 5% auto 2% auto;
+}
+
+
+/* BUTTONS */
+
+
+.bts2{
+    background-color: #5089C6;
+    color: white;
+}
+.btn{
+    margin: 4%;
+    padding: 5px;
+    
+}
+.bts1{
+    background-color: #865439;
+    color: white;
+}
+.btnn{
+    background-color: #87A7B3;
+    color: white;
+}
+/* QUIZ */
+.quiz2{
+    float: left;
+    box-shadow: 3px -3px 4px gray;
+}
+.quiz1{
+    float: right;
+    box-shadow: -3px -3px 4px gray;
+}
+#main{
+    margin: 2% 0;
+}
+.questions{
+    text-align: left;
+    font-family: 'Zilla Slab';
+    margin: 0 auto;
+    width: 340px;
+}
+.gif{
+    width:400px;
+    height: 300px;
+}
